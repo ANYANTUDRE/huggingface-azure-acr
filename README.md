@@ -4,10 +4,6 @@ _Take advantage of insta-scaling for live inferencing_
 
 Learn how to deploy an ML container with FastAPI and deploy it to [Azure Container Apps](https://docs.microsoft.com/azure/container-apps/overview?WT.mc_id=academic-0000-alfredodeza) with GitHub Actions. This repository gives you a good starting point with a Dockerfile, GitHub Actions workflow, and Python code.
 
-## Generate a PAT
-
-The access token will need to be added as an Action secret. [Create one](https://github.com/settings/tokens/new?description=Azure+Container+Apps+access&scopes=write:packages) with enough permissions to write to packages.
-
 ## Create an Azure Service Principal
 
 You'll need the following:
